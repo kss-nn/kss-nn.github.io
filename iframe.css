@@ -1,0 +1,87 @@
+/* This file contains optimization settings only for <iframe> elements (e.g. Google Maps).
+Optimization is done all device types available in Edge's developer toolbar. */
+
+/* Optimized for:
+JioPhone 2 (screen width: 240px) */
+iframe {
+    width: 190px;
+}
+
+/* Optimized for:
+Galaxy Fold (screen width: 280px) */
+@media only screen and (min-width: 241px) {
+    iframe {
+        width: 220px;
+    }
+}
+
+/* Optimized for:
+iPhone 4/5/SE, Lumia 520 (screen width: 320px) */
+@media only screen and (min-width: 281px) {
+    iframe {
+        width: 260px;
+    }
+}
+
+/* Optimized for:
+BlackBerry Z30, Moto G4, Galaxy Note 2/3, Galaxy S3/S5, Lumia 950, Nexus 5 (screen width: 360px);
+iPhone 6/7/8/X/SE(2020) (screen width: 375px) */
+@media only screen and (min-width: 321px) {
+    iframe {
+        width: 300px;
+    }
+}
+
+/* Optimized for:
+LG Optimus L70, Nexus 4 (screen width: 384px);
+Redmi Note 7/8/9 (screen width: 393px) */
+@media only screen and (min-width: 376px) {
+    iframe {
+        width: 330px;
+    }
+}
+
+/* Optimized for:
+Pixel 2/2 XL (screen width: 411px);
+Nexus 5X/6/6P, Galaxy A51 (screen width: 412px);
+iPhone 6/7/8 Plus, iPhone 11/XR (screen width: 414px) */
+@media only screen and (min-width: 394px) {
+    iframe {
+        width: 350px;
+    }
+}
+
+/* Optimized for:
+Nokia N9 (screen width: 480px) */
+@media only screen and (min-width: 415px) {
+    iframe {
+        width: 420px;
+    }
+}
+
+/* Optimized for:
+Surface Duo (screen width: 540px);
+BlackBerry PlayBook, Nexus 7 (screen width: 600px);
+Lumia 550 (screen width: 640px) */
+@media only screen and (min-width: 481px) {
+    iframe {
+        width: 480px;
+    }
+}
+
+/* Optimized for:
+iPad, iPad Mini (screen width: 768px);
+Kindle Fire HDX, Nexus 10 (screen width: 800px) */
+@media only screen and (min-width: 641px) {
+    iframe {
+        width: 300px;
+    }
+}
+
+/* Optimized for:
+iPad Pro (screen width: 1024px) */
+@media only screen and (min-width: 801px) {
+    iframe {
+        width: 400px;
+    }
+}
